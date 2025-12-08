@@ -1,0 +1,53 @@
+# Build and output directories
+build/
+bin/
+zephyr/
+*.elf
+*.hex
+*.map
+*.lst
+*.bin
+*.dmp
+
+# CMake and Ninja files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Python virtual environments
+venv/
+.env/
+
+# Misc
+*.log
+*.pyc
+__pycache__/
+*.orig
+*.rej
+
+# Zephyr specific
+modules/
+twister-out/
+*.config
+*.kconfig
+*.conf
+*.dts
+*.dtb
+*.overlay
+*.json
+*.yaml
+*.yml
+*.zip
+*.tar.gz
