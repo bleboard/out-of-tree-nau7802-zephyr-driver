@@ -1,0 +1,11 @@
+&i2c0 {
+    status = "okay";
+        // compatible = "nordic,nrf-twim";
+    nau7802: nau7802@2a {
+            compatible = "nuvoton,nau7802";
+            reg = <0x2a>;
+            drdy-gpios = <&gpio0 1 GPIO_ACTIVE_HIGH>;
+            conversions-per-second = <320>; //SPS
+            gain = <128>;
+    };
+};
