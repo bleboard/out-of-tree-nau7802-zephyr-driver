@@ -51,3 +51,6 @@ twister-out/
 *.yml
 *.zip
 *.tar.gz
+
+# System files
+.DS_Store
