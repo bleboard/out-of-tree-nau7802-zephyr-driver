@@ -1,6 +1,6 @@
 # Out of Tree NAU7802 Zephyr Driver
 
-This repository serves as an example of how to use an "out of tree" driver with Zephyr's sensor API. The full write-up can be found here. The NAU7802 driver code is borrowed from [this repository by TinNotTim](https://github.com/TinNotTim/nau7802_loadcell_zephyr_driver).
+This repository serves as an example of how to use an "out of tree" driver with Zephyr's sensor API. The full write-up [can be found here](https://www.ubiqueiot.com/posts/out-of-tree-nau7802-zephyr-driver). The NAU7802 driver code is borrowed from [this repository by TinNotTim](https://github.com/TinNotTim/nau7802_loadcell_zephyr_driver).
 
 <img width="1024" height="768" alt="hardware" src="https://github.com/user-attachments/assets/1fa9d8d7-9833-4b30-bb83-eb04f5597c6d" />
 
